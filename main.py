@@ -32,6 +32,5 @@ async def get_students():
     result = students_resource.get_students()
     return result
 
-
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8012)
